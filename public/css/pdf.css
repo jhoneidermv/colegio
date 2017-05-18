@@ -1,0 +1,101 @@
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header {
+  padding: 64px 0;
+  margin-bottom: 2px;
+  width:379px;
+  height:10px;   
+  
+}
+
+#logo {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-left: -5px;
+  
+}
+
+#logo img {
+  width: 100px;
+}
+
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 20px;
+}
+
+table tr:nth-child(2n-1) td {
+  background: #F5F5F5;
+}
+
+table th,
+table td {
+  text-align: center;
+ /* border: 1px solid #C1CED9;*/
+
+}
+
+table th {
+  padding: 7px 3px;
+  color: #5D6975;
+ /* border-bottom: 1px solid #C1CED9;*/
+ width:50%;
+  white-space: nowrap;        
+  font-weight: normal;
+}
+
+
+
+
+table .service,
+table .desc {
+  text-align: left;
+}
+
+table td {
+  padding: 20px;
+  text-align: right;
+}
+
+table td.service,
+table td.desc {
+  vertical-align: top;
+}
+
+table td.unit,
+table td.qty,
+table td.total {
+  font-size: 1.2em;
+}
+
+table td.grand {
+  border-top: 1px solid #5D6975;;
+}
+
+.self ul li.ad {
+    background-image:url(../images/icn-ad.gif);
+}
+
+.self ul li.mail {
+    background-image:url(../images/icn-mail.gif);
+}
+
+.self ul li.tel {
+    background-image:url(../images/icn-tel.gif);
+}
+
+.self ul li.web {
+    background-image:url(../images/icn-web.gif);
+}
+.hola{
+    color: #000000;
+}
+
